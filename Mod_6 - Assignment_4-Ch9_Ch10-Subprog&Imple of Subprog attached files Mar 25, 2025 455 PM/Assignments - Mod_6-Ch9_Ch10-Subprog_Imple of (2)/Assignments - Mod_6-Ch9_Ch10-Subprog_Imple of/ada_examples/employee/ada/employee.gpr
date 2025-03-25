@@ -1,0 +1,14 @@
+project Employee is
+
+   for Main use ("test_employee.adb");
+
+   package Builder is
+      for Default_Switches ("ada") use ("-s");
+   end Builder;
+
+   package Compiler is
+      for Default_Switches ("ada") use ("-gnat05", "-gnata");
+   end Compiler;
+
+end Employee;
+

@@ -1,0 +1,40 @@
+V "GNAT Lib v13"
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+
+U complex%b		complex.adb		dbdd99fa NE OO PK IL
+
+U complex%s		complex.ads		785d0035 EE NE OO PK IL
+
+D complex.ads		20250325222108 785d0035 complex%s
+D complex.adb		20250325222642 a38099cf complex%b
+D system.ads		20240521074738 426dafb8 system%s
+G a e
+G c Z s b [Oadd complex 8 18 none]
+G c Z s b [Osubtract complex 9 18 none]
+G c Z s b [Omultiply complex 10 18 none]
+G c Z s b [Odivide complex 11 18 none]
+G c Z s s [complexIP complex 3 14 none]
+X 1 complex.ads
+1K9*complex 13l5 13e12 2|1b14 26l5 26t12
+3R14*complex 5e19 8r29 8r45 9r29 9r45 10r29 10r45 11r29 11r45 2|3r29 3r45
+. 8r29 8r45 14r29 14r45 20r29 20r45
+4f17*first{float} 2|5m25 5r36 5r46 10m25 10r36 10r46 16m25 16r37 16r47 16r93
+. 16r127 22m27 22r40 22r50 22r84 22r134 22r144 22r167
+4f24*second{float} 2|5m53 5r65 5r76 10m53 10r65 10r76 16r60 16r71 16m80 16r103
+. 16r116 22r60 22r71 22r97 22m109 22r123 22r154 22r180
+8V19*"+"{3R14} 8>23 8>26 2|3b19 6l14 6t16
+8r23 a{3R14} 2|3b23 5r34 5r63
+8r26 b{3R14} 2|3b26 5r44 5r74
+9V19*"-"{3R14} 9>23 9>26 2|8b19 11l14 11t16
+9r23 a{3R14} 2|8b23 10r34 10r63
+9r26 b{3R14} 2|8b26 10r44 10r74
+10V19*"*"{3R14} 10>23 10>26 2|14b19 17l14 17t16
+10r23 a{3R14} 2|14b23 16r35 16r58 16r91 16r114
+10r26 b{3R14} 2|14b26 16r45 16r69 16r101 16r125
+11V19*"/"{3R14} 11>23 11>26 2|20b19 23l14 23t16
+11r23 a{3R14} 2|20b23 22r38 22r58 22r121 22r142
+11r26 b{3R14} 2|20b26 22r48 22r69 22r82 22r95 22r132 22r152 22r165 22r178
+
